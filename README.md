@@ -9,7 +9,7 @@
 
 ## 2) Add parameters to the pipeline
 
-  Give a name to the pipeline you are creating.
+  Give a name to the pipeline.
 
  <img width="243" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/5bc69c86-6486-4c42-9d2f-a6c9dabbedc5">
  
