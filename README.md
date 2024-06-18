@@ -6,12 +6,9 @@
 4. Make sure you have necessary IAM role created with right policy and attached to Jenkins EC2 instance. see below for the steps to create IAM role.
 
 ## 1) Create a new Jenkins Pipeline
+
 ## 2) Add parameters to the pipeline
-    Click checkbox - This project is parameterized, choose Choice Parameter
-    
-    <img width="243" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/5bc69c86-6486-4c42-9d2f-a6c9dabbedc5">
-    
-    Enter name as action. type apply and enter and type destroy as choices as it is shown below(it should be in two lines)
+  <img width="243" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/5bc69c86-6486-4c42-9d2f-a6c9dabbedc5">
  
    <img width="780" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/e17b7f4f-e6b4-42a6-8d08-0333bdf444f4">
 
