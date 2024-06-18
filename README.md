@@ -23,4 +23,16 @@ console output with action Apply :
 <img width="694" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/24412a87-ea5b-4f12-b56a-d349c4349ee6">
 
 
+Destroy :
+
+<img width="609" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/b9f2c36c-c129-4588-92a7-fc9f436c8d37">
+Ec2 dashboard after destroy action
+<img width="848" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/3328e584-dad8-49bb-8fd6-3438dd80e563">
+Console output with action destroy :
+<img width="687" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/43e13973-f6c0-483e-9052-88c71bcfae46">
+<img width="692" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/f363eb6c-1e9b-458d-87db-25aee0b96fbd">
+<img width="678" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/27444858-d0f6-40d3-9751-fd332a0b5d6c">
+
+
+
 
