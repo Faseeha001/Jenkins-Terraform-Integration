@@ -7,14 +7,12 @@
 
 ## 1) Create a new Jenkins Pipeline
 ## 2) Add parameters to the pipeline
-
     Click checkbox - This project is parameterized, choose Choice Parameter
     
     <img width="243" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/5bc69c86-6486-4c42-9d2f-a6c9dabbedc5">
     
-    Enter name as action
-    type apply and enter and type destroy as choices as it is shown below(it should be in two lines)
-   apply destroy
+    Enter name as action. type apply and enter and type destroy as choices as it is shown below(it should be in two lines)
+ 
    <img width="780" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/e17b7f4f-e6b4-42a6-8d08-0333bdf444f4">
 
 ## configuration
@@ -23,19 +21,26 @@
 ## Go to Pipeline section
 
 1. Add below pipeline code and modify per your GitHub repo configuration.
+
 pipeline script :
 <img width="614" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/c41ff38d-2b2f-49cf-9dd6-697b266996c1">
+
 2. Click on Build with Parameters and choose apply to build the infrastructure or choose destroy if you like to destroy the infrastructure you have built.
+   
 3. Click on Build
 4. Now you should see the console output if you choose apply.
  console output with action Apply :
 
 <img width="731" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/a20c5887-dc5f-4731-b1a3-53bad4e6b98f">
+
 <img width="754" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/111f6e4e-ed2e-40a3-be9f-630fd7fdeb46">
+
 <img width="694" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/24412a87-ea5b-4f12-b56a-d349c4349ee6">
 
 4:Login to AWS console, you should see the new EC2 instance created.
+
 E2C instance: 
+
 <img width="802" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/5f76a5a2-5bc1-471a-83bb-497b8d059e9c">
 
 Destroy :
