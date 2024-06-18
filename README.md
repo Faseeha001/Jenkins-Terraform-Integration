@@ -8,11 +8,15 @@
 ## 1) Create a new Jenkins Pipeline
 
 ## 2) Add parameters to the pipeline
-  <img width="243" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/5bc69c86-6486-4c42-9d2f-a6c9dabbedc5">
+
+  Give a name to the pipeline you are creating.
+
+ <img width="243" alt="image" src="https://github.com/Faseeha001/Jenkins-Terraform-Integration/assets/169563689/5bc69c86-6486-4c42-9d2f-a6c9dabbedc5">
  
-   <img width="780" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/e17b7f4f-e6b4-42a6-8d08-0333bdf444f4">
+<img width="780" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/e17b7f4f-e6b4-42a6-8d08-0333bdf444f4">
 
 ## configuration
+
 <img width="679" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/7d0ea777-5a4e-4d43-8cdc-072a249263c9">
 
 ## Go to Pipeline section
@@ -20,11 +24,13 @@
 1. Add below pipeline code and modify per your GitHub repo configuration.
 
 pipeline script :
+
 <img width="614" alt="image" src="https://github.com/Faseeha001/Terraform_Jenkins/assets/169563689/c41ff38d-2b2f-49cf-9dd6-697b266996c1">
 
 2. Click on Build with Parameters and choose apply to build the infrastructure or choose destroy if you like to destroy the infrastructure you have built.
    
 3. Click on Build
+   
 4. Now you should see the console output if you choose apply.
  console output with action Apply :
 
